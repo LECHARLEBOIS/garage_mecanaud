@@ -1,0 +1,64 @@
+:root{
+    --black: #000000;
+    --dark_red: #3D0000;
+    --blood_red: #950101;
+    --really_red: #FF0000;
+    --text_beige: #EEEBDD;
+    --text_grey: #505458;
+
+}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top_video{
+    background-color: aqua;
+    width: auto;
+    height: 150px;
+    margin: 10%;
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--text_grey);
+}
+
+.link_text_box{
+    text-decoration: none;
+    color: var(--text_grey);
+}
+
+.footer{
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.link_left_align{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 10%;
+}
+
+.carousel-item img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.card-img-top {
+object-fit: cover;
+height: 60%;
+}
